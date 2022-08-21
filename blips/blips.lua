@@ -1,3 +1,4 @@
+--Add Blips here and you can edit blips 
 local blips = {
    {title="Perrera Beach Flats", colour=61, id=475, x = -1476.62, y = -661.79, z = 6.0},
    {title="Bilingsgate Flats", colour=61, id=475, x = 570.99, y = -1746.87, z = 6.0},
@@ -13,7 +14,7 @@ local blips = {
    {title="Hospital", colour=2, id=61, x = 292.34, y = -589.81, z = 6.0}
 
   }	  
-	  
+-- Dont touch unless you know what you are doing	  
 Citizen.CreateThread(function()
 
     for _, info in pairs(blips) do
